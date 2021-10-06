@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<title>Contact Us</title>
+<!-- Favicon -->
+<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+<!-- Custom styles -->
+<link rel="stylesheet" href="css/style.css">
+<!--Fontawesome icons-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+<!-- Nav Bar -->
+<section class="container-fluid bg-black">
+  <nav class="navbar navbar-expand-lg navbar-light container"> <a class="navbar-brand" href="index.html"> <img class="logo" src="images/Logo.png" alt="logo" /></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle bg-home" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a> </div>
+        </li>
+        <li class="nav-item"> <a class="nav-link bg-color" href="#">Order Online</a> </li>
+        <li class="nav-item"> <a class="nav-link bg-color" href="#">About</a> </li>
+        <li class="nav-item"> <a class="nav-link bg-color" href="#">News</a> </li>
+        <li class="nav-item"> <a class="nav-link bg-color" href="#">Contact Us</a> </li>
+      </ul>
+    </div>
+  </nav>
+</section>
+<section class="contact">
+  <div class="container">
+    <h1 class="contact-main-heading">Contact Us</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <form action="javascript:alert('Data Saved successfully!');" method="post" id="contact">
+            <div class="form-group">
+              <label class="bg-font-white">Name</label>
+              <input type="text" name="name" class="form-control" />
+            </div>
+            <div class="form-group">
+              <label class="bg-font-white">Email</label>
+              <input type="email" name="email" class="form-control">
+            </div>
+			<div class="form-group">
+              <label class="bg-font-white">Password</label>
+              <input type="password" id="password" name="password" class="form-control">
+            </div>
+			<div class="form-group">
+              <label class="bg-font-white">confirm Password</label>
+              <input type="password" name="conformpassword" class="form-control">
+            </div>
+            <div class="form-group">
+              <label class="bg-font-white">Phone number</label>
+              <input type="text" name="phone" class="form-control" maxlength="10">
+            </div>
+            <div class="form-group">
+              <label class="bg-font-white">Any Queries Please Upload file</label>
+              <br>
+              <input class="bg-font-white" name="fileupload" type="file" id="file"
+        		onchange="return fileValidation()">
+            </div>
+            <button type="submit" class="btn btn-danger">Submit</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-sm-2">
+          <ul class="list-unstyled">
+            <li>
+              <p class="footer-heading">ORDER ONLINE</p>
+            </li>
+            <li><a href="#">Appetizers</a></li>
+            <li><a href="#">Burgers</a></li>
+            <li><a href="#">Pizza</a></li>
+            <li><a href="#">Fries</a></li>
+            <li><a href="#">Sides</a></li>
+            <li><a href="#">Desserts</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">Specials</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-2">
+          <ul class="list-unstyled">
+            <li>
+              <p class="footer-heading">NAVIGATE</p>
+            </li>
+            <li><a href="#"><span class="bg-yellow">Home</span></a></li>
+            <li><a href="#">Alternate Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-2">
+          <ul class="list-unstyled">
+            <li>
+              <p class="footer-heading">INFORMATION</p>
+            </li>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Terms Of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li> <a href=""> <img class="pt-3 img-fluid" src="images/Google Play footer.png" alt="footer-app-store"> </a> </li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-2">
+          <ul class="list-unstyled">
+            <li>
+              <p class="footer-heading">OPENING HOURS</p>
+            </li>
+            <li>Mon - <span class="bg-yellow">10AM to 11PM</span></li>
+            <li>Tue - <span class="bg-yellow">10AM to 11PM</span></li>
+            <li>Wed - <span class="bg-yellow">10AM to 11PM</span></li>
+            <li>Thur - <span class="bg-yellow">10AM to 11PM</span></li>
+            <li>Fri - <span class="bg-yellow">10AM to 11PM</span></li>
+            <li>Sat - <span class="bg-yellow">10AM to 1AM</span></li>
+            <li>Sun - <span class="bg-yellow">11AM to 10PM</span></li>
+          </ul>
+        </div>
+        <div class="col-12 col-sm-2">
+          <ul class="list-unstyled">
+            <li class="footer-heading text-center">
+              <p>VOCHER</p>
+            </li>
+            <li class="text-center"><img class="img-fluid footer-offer-img" src="images/Round-offer-logo.png" alt="offer logo"></li>
+            <li class="text-center">
+              <p>Just Use The Code <br>
+                <span class="bg-yellow">FIRSTORDER</span><br>
+                <span>AtCheckout</span> </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 text-center mt-5"> <img class="footer-logo img-fluid" src="images/Logo.png" alt="logo">
+          <p class="footer-bottom-color"><span class="bg-yellow footer-bottom-line">Stay In The Loop</span> <br>
+            Sign up to receive up to date news and offers directly in your inbox: </p>
+          <form action="#">
+            <div>
+              <input class="footer-input" type="text" placeholder="you@email.com"/>
+            </div>
+            <div>
+              <button class="btn footer-button" type="submit">SUBSCRIBE</button>
+            </div>
+          </form>
+          <div class="mt-4"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-instagram"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fas fa-rss"></i></a> <a href="#"><i class="fab fa-youtube"></i></a> <a href="#"><i class="far fa-envelope"></i></a> </div>
+          <div class="mt-5">
+            <p class="footer-decoloration"> <span class="bg-yellow">&copy; 2012-2021 | Avada Theme by</span> ThemeFusion <span class="bg-yellow">| All Rights Reserved | Powered by</span> WordPress</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	<script src="https://releases.jquery.com/git/jquery-git.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.js"></script>
+     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="javascript/validate.js"></script>
+  </footer>
+</body>
+</html>

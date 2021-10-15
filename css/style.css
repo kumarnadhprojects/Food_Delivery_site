@@ -220,49 +220,59 @@ body {
 .s4-box1{
 	background-image: url("../images/S4-image1.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box2{
 	background-image: url("../images/S4-image2.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box3{
 	background-image: url("../images/S4-image3.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box4{
 	background-image: url("../images/S4-image4.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box5{
 	background-image: url("../images/S4-image5.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box6{
 	background-image: url("../images/S4-image6.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box7{
 	background-image: url("../images/S4-image7.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-box8{
 	background-image: url("../images/S4-image8.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .s4-positioning{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 40vh;
-	margin-bottom: 20px;
+    justify-content: center;
+    position: static;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 100px;
 }
 
 .s4 p {

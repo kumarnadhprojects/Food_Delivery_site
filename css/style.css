@@ -108,9 +108,8 @@ body {
 	margin-top: 10px;
 }
 .custom-styles{
-	position: absolute;
-    top: 300px;
 	line-height: 60px;
+	padding-top: 70px;
 }
 
 .s1-text1{

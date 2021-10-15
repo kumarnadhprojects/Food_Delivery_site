@@ -220,49 +220,41 @@ body {
 .s4-box1{
 	background-image: url("../images/S4-image1.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box2{
 	background-image: url("../images/S4-image2.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box3{
 	background-image: url("../images/S4-image3.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box4{
 	background-image: url("../images/S4-image4.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box5{
 	background-image: url("../images/S4-image5.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box6{
 	background-image: url("../images/S4-image6.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box7{
 	background-image: url("../images/S4-image7.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-box8{
 	background-image: url("../images/S4-image8.jpg");
 	background-size: cover;
-	height: 40vh;
 }
 
 .s4-positioning{
@@ -270,6 +262,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 20px;
+	height: 250px;
 }
 
 .s4 p {
@@ -379,7 +372,6 @@ body {
 .footer{
 	background-image: url("../images/Footer.jpg");
 	background-size: cover;
-    min-height: 150vh;
 }
 
 .footer-heading {

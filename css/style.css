@@ -275,6 +275,10 @@ body {
     padding: 100px;
 }
 
+.s4-mb{
+	margin-bottom: 30px;
+}
+
 .s4 p {
 	color: white;
 	font-weight: bold;

@@ -54,6 +54,9 @@ body {
 	background-image: url("../images/banner.jpg");
 	background-size: cover;
     height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .demos{
@@ -109,7 +112,6 @@ body {
 }
 .custom-styles{
 	line-height: 60px;
-	padding-top: 70px;
 }
 
 .s1-text1{
